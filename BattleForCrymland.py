@@ -293,8 +293,6 @@ def oneweek(para, Bigg, thievelist, detectivelist, summary, week, outfile):
         print("the total number of thieves/lieutenants jailed " + str(summary['jailed']))
         print("the personal wealth of Mr. Bigg is " + str(Bigg.wealth))
         print("the total amount of bribes accepted by detectives " + str(summary['bribe_amount']))
-        print(f'------------------Here is the summary for week {week}-------------')
-        print(summary)
 
         outfile.write("The total number of actors in Mr. Bigg’s criminal syndicate, excluding those jailed: " + str(summary['total']) + '\n')
         outfile.write("the total number of thieves/lieutenants jailed " + str(summary['jailed']) + '\n')
