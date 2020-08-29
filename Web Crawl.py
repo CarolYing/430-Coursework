@@ -151,6 +151,6 @@ class Collector(HTMLParser):
                 
 
 #-------------------------Run the main function-------------------------
-#Note: It may take 20+ miutes to run the function
+#Note: It may take 20+ minutes to run the function
 if __name__ == '__main__':
 	freqWords('https://www.cdm.depaul.edu/Pages/default.aspx')
