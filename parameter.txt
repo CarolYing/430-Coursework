@@ -1,0 +1,11 @@
+weeks = 500
+n_thieves = 7
+heist_coef = 1000
+promotion_wealth = 1000000
+n_detectives = 3
+solve_init = 0.07
+solve_cap = 0.75
+discovered = 0.1 
+bribe_threshold = 1000000
+bribe_percent = 0.1
+n_testimony = 3
